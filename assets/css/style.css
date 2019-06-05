@@ -244,7 +244,7 @@ h1{
 	background-size: cover;
 	height: 150px;
 	width: 218px;
-	margin-left: 25%;
+	margin-left: 33%;
 }
 
 #tat_img2{
@@ -253,7 +253,7 @@ h1{
 	background-repeat: no-repeat;
 	height: 150px;
 	width: 146px;
-	margin-left: 35%;
+	margin-left: 40%;
 }
 
 a.tat_anch{
@@ -347,7 +347,7 @@ a.foot_menu:hover{
 }
 
 /*==================IPAD PRO SETTINGS=======================*/
-@media screen and (max-width: 1200px){
+/*@media screen and (max-width: 1200px){
 	#tat_img1{
 		background-size: cover;
 		height: 352px;
@@ -362,7 +362,7 @@ a.foot_menu:hover{
 		width: 50%;
 		margin: 0;
 	}
-}
+}*/
 
 
 /*==================MOBILE SETTINGS=======================*/
@@ -382,21 +382,34 @@ a.foot_menu:hover{
 	}
 
 	#sect_about p{
-		font-size: 0.7rem;
+		font-size: 1.3rem;
 		text-align: justify;
 	}
 
 	#about,
-	#portfolio,
-	#tattooshop,
 	#affiliations{
-		height: 70vh;
+		height: 60vh;
 		width: 100%;
 	}
 
+	#portfolio{
+		height: 100vh;
+	}
+
+	#tattooshop,
 	#contacts{
 		height: 50vh;
 		width: 100%;
+	}
+
+	#portimg1,#portimg2,#portimg3,
+	#portimg4,#portimg5,#portimg6,
+	#portimg7,#portimg8,#portimg9,
+	#portimg10,#portimg11,#portimg12,
+	#portimg13,#portimg14,#portimg15{
+		height: 150px;
+		width: 32%;
+		margin: 0;
 	}
 
 	a.tat_anch{
@@ -412,17 +425,17 @@ a.foot_menu:hover{
 
 	#tat_img1{
 		background-size: cover;
-		height: 264px;
-		width: 50%;
-		margin: 0;
+		height: 182px;
+		width: 75%;
+		margin-left: 15%;
 	}
 
 	#tat_img2{
 		background-size: contain;
 		background-repeat: no-repeat;
-		height: 394px;
+		height: 182px;
 		width: 50%;
-		margin: 0;
+		margin-left: 25%;
 	}
 
 	a.foot_menu{
@@ -475,16 +488,28 @@ a.foot_menu:hover{
 		font-size: 2em;
 	}
 
+	#sect_about p{
+		font-size: 0.8rem;
+		text-align: justify;
+	}
+
 	#about,
-	#portfolio,
-	#tattooshop,
 	#affiliations{
 		height: 70vh;
 		width: 100%;
 	}
 
+	#portfolio{
+		height: 150vh;
+	}
+
+	#tattooshop,
 	#contacts{
 		height: 50vh;
+		width: 100%;
+	}
+
+	#seemore1{
 		width: 100%;
 	}
 
@@ -497,8 +522,8 @@ a.foot_menu:hover{
 	#tat_img1{
 		background: url("../img/tattoo/Emerald Logo_509X350px.png");
 		background-size: cover;
-		height: 142px;
-		width: 50%;
+		height: 121px;
+		width: 100%;
 		margin: 0;
 	}
 
@@ -506,20 +531,29 @@ a.foot_menu:hover{
 		background: url("../img/tattoo/Union Logo_341X350px.png");
 		background-size: contain;
 		background-repeat: no-repeat;
-		height: 211px;
-		width: 50%;
-		margin: 0;
+		height: 123px;
+		width: 68%;
+		margin-left: 20%;
 	}
 
-	#portimg1,
-	#portimg2,
-	#portimg3,
-	#portimg4,
-	#portimg5,
-	#seemore1{
+	a.tat_anch{
+		color: #fff;
+		text-decoration: none;
+		font-size: 0.7rem;
+	}
+
+	#portimg1,#portimg2,#portimg3,
+	#portimg4,#portimg5,#portimg6,
+	#portimg7,#portimg8,#portimg9,
+	#portimg10,#portimg11,#portimg12,
+	#portimg13,#portimg14,#portimg15{
 		height: 150px;
 		width: 32%;
-		margin-left: 1%;
+	}
+
+	#portimg1,#portimg4,#portimg7,
+	#portimg10,#portimg13{
+		margin-left: 2%;
 	}
 
 	footer{
@@ -552,42 +586,50 @@ a.foot_menu:hover{
 
 @media screen and (max-width: 380px){
 	#tat_img1{
-		height: 124px;
-		width: 50%;
-	}
-
-	#tat_img2{
-		height: 184.75px;
-		width: 50%;
-	}
-
-}
-
-
-@media screen and (max-width: 320px){
-
-	#tat_img1{
 		background: url("../img/tattoo/Emerald Logo_509X350px.png");
 		background-size: cover;
-		height: 115px;
-		width: 50%;
+		height: 103px;
+		width: 100%;
+		margin: 0;
 	}
 
 	#tat_img2{
 		background: url("../img/tattoo/Union Logo_341X350px.png");
 		background-size: contain;
 		background-repeat: no-repeat;
-		height: 164.75px;
-		width: 50%;
+		height: 100px;
+		width: 65%;
+		margin-left: 20%;
+	}
+}
+
+@media screen and (max-width: 320px){
+
+	#tat_img1{
+		background: url("../img/tattoo/Emerald Logo_509X350px.png");
+		background-size: cover;
+		height: 89px;
+		width: 100%;
+	}
+
+	#tat_img2{
+		background: url("../img/tattoo/Union Logo_341X350px.png");
+		background-size: contain;
+		background-repeat: no-repeat;
+		height: 87px;
+		width: 65%;
 	}
 
 	#about,
-	#portfolio,
 	#tattooshop,
 	#contacts,
 	#affiliations{
 		height: 70vh;
 		width: 100%;
+	}
+
+	#portfolio{
+		height: 150vh;
 	}
 
 }
